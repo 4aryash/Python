@@ -6,12 +6,12 @@ import random
 import re
 import sys
 
-n=int(input(""))
-n=n%2
+a=int(input(""))
+n=a%2
 
-if (n==1 or (n==0 and 6<=n<=20)):
+if (n==1 or (n==0 and 6<=a<=20)):
     print("Weird")
-elif(n==0 and (2<=n<=5 or n>20)):
+elif(n==0 and (2<=a<=5 or a>20)):
     print("Not Weird")
 else:
     print("Not Weird")
