@@ -1,0 +1,24 @@
+a=int(input())          #user's input
+
+def leapYear(int):      #if a year is divisible by 4, it is always a leap year.
+    n=a%4               #condition 1 check.
+    if n==0:            #if true, prints leap year. Otherwise checks condition 2
+        print("Leap Year")
+    else:
+        return nonLeapYear(int)
+
+def nonLeapYear(int):   #if an year is not divisible by 100, it is not a leap year until condition 3 is true.
+    m=a%100             #conditon 2 check.
+    if m!=0:            #if true, prints false. Otherwise, checks condition 3
+        print("False")
+    else:
+        return maybeLeapYear(int)
+        
+def maybeLeapYear(int): #if an year is divisible by 100, it should be disible by 400, to be a leap year.
+    l=a%400             #condition 3 check
+    if l==0:            #if true, prints leap year. Otherwise, exits the program.
+        print("Leap Year")
+    else:
+        return 0
+       
+leapYear(a)
