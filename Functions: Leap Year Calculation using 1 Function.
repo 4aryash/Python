@@ -1,0 +1,17 @@
+def is_leap(year):
+    
+    n=year%4
+    m=year%100
+    l=year%400
+    
+    if n==0:
+        print("Leap Year")
+    elif m!=0:
+        print("False")
+    elif l==0:
+        print("Leap Year")
+    else:
+        return 0
+
+year = int(input())
+print(is_leap(year))
