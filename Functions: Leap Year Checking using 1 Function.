@@ -13,3 +13,25 @@ def is_leap(year):      #single function checking leap year.
 
 year = int(input())     #User's input
 print(is_leap(year))    #function call
+
+'''
+def is_leap(year):      #single function checking leap year.
+    
+    n=year%4            #if an year is divisible by 4, it is always a leap year.
+    m=year%100          #if an year is not divisible by 100, it is not a leap year.
+    l=year%400          #if an year is divisible by 100, it has to be divisible by 400, to be a leap year.
+    
+    if n==0:            #condition 1 check
+        if m==0:        #condition 2 check
+            if l==0:    #condition 3 check
+               return "Leap Year"
+            else:
+                return "False"
+        else:
+            return "Leap Year"
+    else:
+        return "False"
+
+year = int(input())
+print(is_leap(year))
+'''
