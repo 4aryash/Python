@@ -12,5 +12,5 @@ def numpyOnes(int):
         b= numpy.ones((n,n), dtype= int)
         print(b)
 
-numpyOnes(int)
 numpyZeros(int)
+numpyOnes(int)
