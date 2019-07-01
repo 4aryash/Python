@@ -4,6 +4,6 @@ x = int(input())
 
 def yankee(int):
     for i in range(1,x+1):
-        print(i,end="")
-        
-print(yankee(x))
+        print (i,end="")
+
+yankee(x)
