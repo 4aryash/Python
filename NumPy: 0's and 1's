@@ -1,0 +1,7 @@
+import numpy
+
+n = int(input())
+
+for i in n:
+    print numpy.zeros((1,2) dtype = numpy.int)
+    print numpy.ones((1,2) dtype = numpy.int)
