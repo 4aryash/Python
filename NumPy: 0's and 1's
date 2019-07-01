@@ -3,12 +3,14 @@ import numpy
 n = int(input())
 
 def numpyZeros(int):
-    b= numpy.zeros((n,n), dtype= int)
-    print(b)
-    
+    for i in range(n):
+        a= numpy.zeros((n,n), dtype= int)
+        print(a)
+        
 def numpyOnes(int):
-    c= numpy.ones((n,n), dtype= int)
-    print(c)
+    for j in range(n):
+        b= numpy.ones((n,n), dtype= int)
+        print(b)
 
-numpyZeros(int)
 numpyOnes(int)
+numpyZeros(int)
