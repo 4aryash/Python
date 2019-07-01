@@ -14,3 +14,13 @@ def numpyOnes(int):
 
 numpyZeros(int)
 numpyOnes(int)
+
+
+"""
+inputs = []
+while True:
+    inp = input()
+    if inp == "":
+        break
+    inputs.append(int(inp))
+"""
