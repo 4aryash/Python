@@ -2,7 +2,13 @@ import numpy
 
 n = int(input())
 
-b= numpy.zeros((n,n), dtype= int)
-c= numpy.ones((n,n), dtype= int)
-print(b)
-print(c)
+def numpyZeros(int):
+    b= numpy.zeros((n,n), dtype= int)
+    print(b)
+    
+def numpyOnes(int):
+    c= numpy.ones((n,n), dtype= int)
+    print(c)
+
+numpyZeros(int)
+numpyOnes(int)
