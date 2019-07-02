@@ -1,0 +1,10 @@
+import math
+
+x = int(input())
+
+print("Enter the number to calculate factorial: ")
+print(math.factorial(x))        #using the predefined factorial function
+
+for i in range (x,x+1):
+    x = x*(x-1)
+    print(x)
