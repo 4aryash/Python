@@ -5,6 +5,6 @@ x = int(input())
 print("Enter the number to calculate factorial: ")
 print(math.factorial(x))        #using the predefined factorial function
 
-for i in range (x,x+1):
+for i in range (x):             #using the naive method
     x = x*(x-1)
-    print(x)
+print(x)
