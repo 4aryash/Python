@@ -1,9 +1,7 @@
-x = int(input())
+n=int(input())
 
-Dict= {}                #creating an empty dictionary
-def juliet():
-    for i in range(x):  #creating a loop to add into dictionary
-        Dict= {i:i*i}   #key-value pattern logic
-    print(Dict)
+d=dict()
+for i in range(1,n+1):
+    d[i]=i*i
 
-juliet()
+print(d)
