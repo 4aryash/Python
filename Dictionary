@@ -1,9 +1,9 @@
 x = int(input())
 
-Dict= {}
+Dict= {}                #creating an empty dictionary
 def juliet():
-    for i in range(x):
-        Dict= {i:i*i}
+    for i in range(x):  #creating a loop to add into dictionary
+        Dict= {i:i*i}   #key-value pattern logic
     print(Dict)
 
 juliet()
