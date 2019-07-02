@@ -1,0 +1,8 @@
+#creating a tuple and checking its length
+
+bravo= ('a','e','i','o','u')
+
+for i in bravo:
+    print(i,end=" ")
+    
+print(len(bravo))
