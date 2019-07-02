@@ -1,0 +1,9 @@
+x = int(input())
+
+Dict= {}
+def juliet():
+    for i in range(x):
+        Dict= {i:i*i}
+    print(Dict)
+
+juliet()
