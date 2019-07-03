@@ -1,0 +1,12 @@
+#Accept two int values from user and return their product.
+#If the product is greater than 1000, then return their sum.
+
+print("Enter the values: ", end="")
+
+n = int(input())
+m = int(input())
+
+if (n*m)>1000:
+    print("The product is:", m+n)
+else:
+    print("The sum is:", m*n)
