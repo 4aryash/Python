@@ -16,11 +16,14 @@ numpyZeros(int)
 numpyOnes(int)
 
 
-"""
-inputs = []
-while True:
-    inp = input()
-    if inp == "":
-        break
-    inputs.append(int(inp))
+""" #correct code
+import numpy
+
+array= list(map(int,input().split()))
+
+matrix= numpy.zeros((array), dtype=int)
+print(matrix)
+
+matrix= numpy.ones((array), dtype=int)
+print(matrix)
 """
