@@ -1,0 +1,18 @@
+"""
+Your task is to print an array of size N*M with its main diagonal elements as 1's and 0's everywhere else.
+
+Input: 
+A single line containing the space separated values of N and M.
+N denotes the rows.
+M denotes the columns.
+
+Output:
+Print the desired N*M array.
+"""
+
+import numpy
+
+array= list(map(int,input().split()))
+
+matrix= numpy.eye((array), k = 1, dtype=float)
+print(matrix)
