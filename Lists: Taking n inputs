@@ -1,0 +1,9 @@
+listX=[]
+length=int(input("Enter the length of the List:"))
+
+print("Enter the entries: ")
+for i in range(length):
+    entries=int(input())
+    listX.appen(entries)
+    
+print(listX)
