@@ -1,0 +1,8 @@
+number= int(input())
+
+def delta(x):
+    mytxt = my_function("I wonder how this text looks like backwards")
+    return x[::-1]
+    print(mytxt)
+
+delta(x)
