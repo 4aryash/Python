@@ -1,9 +1,12 @@
-listX=[]
-length=int(input("Enter the length of the List:"))
+listX=[]                                            #creating an empty list
+length=int(input("Enter the length of the List:"))  #taking the size of the list as input
 
-print("Enter the entries: ")
-for i in range(length):
-    entries=int(input())
-    listX.append(entries)
+print("Enter the entries: ")                        #taking the values to be added in the list
+
+def charlie():                                      #function containing the logic
+    for i in range(length):
+        entries=int(input())                        #storing the user's input in a variable
+        listX.append(entries)                       #append is used to add the values to the list.
+    print(listX)                                    #printing the list
     
-print(listX)
+charlie()                                           #function call
