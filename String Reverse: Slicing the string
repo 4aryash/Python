@@ -1,3 +1,5 @@
+"""Reverse a given number and return true if it is the same as the original number"""
+
 s= str(input())         #taking string as user input
 
 def delta(s):
