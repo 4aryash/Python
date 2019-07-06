@@ -1,8 +1,7 @@
-number= int(input())
+s= str(input())         #taking string as user input
 
-def delta(x):
-    mytxt = my_function("I wonder how this text looks like backwards")
-    return x[::-1]
-    print(mytxt)
+def delta(s):
+    return s[::-1]      #slicing and returning the string. Same as [n:0:-1], where n is the last element no., 0 is the 1st element no, -1 is move one step backwards. 
 
-delta(x)
+mytxt = delta(s)        #calling the function to reverse the input and storing it in a variable mytxt 
+print(mytxt)            #printitn the variable mytxt
