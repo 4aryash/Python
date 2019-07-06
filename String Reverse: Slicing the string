@@ -5,3 +5,8 @@ def delta(s):
 
 mytxt = delta(s)        #calling the function to reverse the input and storing it in a variable mytxt 
 print(mytxt)            #printitn the variable mytxt
+
+if mytxt==s:            #Checking if the input number is a palindrome or not.
+    print("The string is a Palindrome.")
+else:
+    print("The String is not a Palindrome")
