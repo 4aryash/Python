@@ -1,0 +1,20 @@
+#https://www.hackerrank.com/challenges/30-operators/problem
+#Given the meal price (base cost of a meal), tip percent (the percentage of the meal price being added as tip), and tax percent (the percentage of the meal price being added as tax) for a meal, find and print the meal's total cost.
+#Note: Be sure to use precise values for your calculations, or you may end up with an incorrectly rounded result!
+
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+meal_cost = float(input())
+tip_percent = int(input())
+tax_percent = int(input())
+
+tip = (meal_cost*tip_percent)/100
+tax = (meal_cost*tax_percent)/100
+totalCost = print(math.ceil(int(meal_cost + tip + tax)))
+#print(math.ceil(totalCost))
