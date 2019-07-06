@@ -1,0 +1,9 @@
+#How to measure the time elapsed to execute your code in Python
+import time
+
+startTime=time.time()
+endTime=time.time()
+
+totalTime=startTime - endTime
+
+print(totalTime)
