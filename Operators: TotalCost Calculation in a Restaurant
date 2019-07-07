@@ -10,21 +10,22 @@ import random
 import re
 import sys
 
+#taking user inputs of various costs
 meal_cost = float(input())
 tip_percent = int(input())
 tax_percent = int(input())
 
-def ceilValue():
+def ceilValue():                                            #inputs having more than .5 will be sent to this fn
     tip = math.ceil((meal_cost*tip_percent)/100)
     tax = math.ceil((meal_cost*tax_percent)/100)
     totalCost = print(math.ceil(int(meal_cost + tip + tax)))
 
-def floorValue():
+def floorValue():                                           #inputs having less than .5 will be sent to this fn
     tip = (meal_cost*tip_percent)/100
     tax = (meal_cost*tax_percent)/100
     totalCost = print(math.ceil(int(meal_cost + tip + tax)))
     
-if (meal_cost%2) > 0.5 or (meal_cost%2)==0:
+if (meal_cost%2) > 0.5 or (meal_cost%2)==0:                 #logic for the ceil value
     floorValue()
-else:
+else:                                                       #logic for the floor value
     ceilValue()
