@@ -14,7 +14,17 @@ meal_cost = float(input())
 tip_percent = int(input())
 tax_percent = int(input())
 
-tip = (meal_cost*tip_percent)/100
-tax = (meal_cost*tax_percent)/100
-totalCost = print(math.ceil(int(meal_cost + tip + tax)))
-#print(math.ceil(totalCost))
+def ceilValue():
+    tip = math.ceil((meal_cost*tip_percent)/100)
+    tax = math.ceil((meal_cost*tax_percent)/100)
+    totalCost = print(math.ceil(int(meal_cost + tip + tax)))
+
+def floorValue():
+    tip = (meal_cost*tip_percent)/100
+    tax = (meal_cost*tax_percent)/100
+    totalCost = print(math.ceil(int(meal_cost + tip + tax)))
+    
+if (meal_cost%2) > 0.5 or (meal_cost%2)==0:
+    floorValue()
+else:
+    ceilValue()
