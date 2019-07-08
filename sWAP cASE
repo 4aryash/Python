@@ -16,13 +16,18 @@ def swap_case(s):       #def with s as a string parameter
 if __name__ == '__main__':
     swap_case(swapText)     #function call with input variable as parameter
 
-"""
-def swap_case(s):
-    s= s.swapcase()
-    return 
+
+
+
+#alternative code
+#actual answer on hackerrank
+
+import string
+
+def swap_case(s):           #function containing the predefined swapcase method.
+    return s.swapcase()     #returning the inputString.swapcase(), whose case gets converted.
 
 if __name__ == '__main__':
     s = input()
     result = swap_case(s)
     print(result)
-"""
