@@ -6,10 +6,13 @@ Www.HackerRank.com → wWW.hACKERrANK.COM
 Pythonist 2 → pYTHONIST 2
 """
 
-swapText= str(input())      #text input to be swapped
+swapText= input()       #text input to be swapped
 
-def swap_case(s):
-    print(swapText.swapcase())
+def swap_case(s):       #def with s as a string parameter
+    s= swapText.swapcase()  #s is the variable that uses the swapcase() method which converts the input string
+    print(s)            #printing the swapped string
     return
 
 if __name__ == '__main__':
+    swap_case(swapText)     #function call with input variable as parameter
+
