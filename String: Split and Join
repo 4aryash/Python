@@ -1,0 +1,16 @@
+"""
+>>> a = "this is a string"
+>>> a = a.split(" ") # a is converted to a list of strings. 
+>>> print a
+['this', 'is', 'a', 'string']
+
+"""
+
+#code
+def split_and_join(line):
+    return ("-".join(line))
+
+if __name__ == '__main__':
+    line = input()
+    result = split_and_join(line)
+    print(result)
