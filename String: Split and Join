@@ -8,9 +8,10 @@
 
 #code
 def split_and_join(line):
-    return ("-".join(line))
-
+    return ('-'.join(line.split()))         #read about join and split on and their syntax again.
+    #return (input().replace(" ","-"))      #alternative logic using the replace keyword
+    
 if __name__ == '__main__':
     line = input()
-    result = split_and_join(line)
+    result = split_and_join(line)       #fn calling
     print(result)
