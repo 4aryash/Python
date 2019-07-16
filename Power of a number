@@ -1,0 +1,14 @@
+#Anything rise to Anything Calculator.
+
+def powerOfAnynumber():
+    if n>0:
+        print(n**y)
+    else:
+        return
+    
+print("Enter the number:",end=" ")
+n= int(input())
+print("Enter the power:",end=" ")
+y= int(input())
+print("Answer:",end=" ")
+powerOfAnynumber()
