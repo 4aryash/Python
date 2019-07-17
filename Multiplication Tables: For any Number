@@ -1,0 +1,16 @@
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+def tables():
+    for i in range(1,11):   #range starting from 1 to 10
+        result = i*n        #multliplication of current number 1 with the input number n
+        print(str(int(n))+" x "+str(int(i))+" = "+str(int(result)))   #printing the table
+
+if __name__ == '__main__':
+    n = int(input())
+tables()                    #calling the function
