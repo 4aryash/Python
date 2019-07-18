@@ -1,4 +1,4 @@
-#!/bin/python
+#!/bin/python3
 
 import math
 import os
@@ -12,7 +12,7 @@ def solve(s):
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
 
-    s = raw_input()
+    s = input()
 
     result = solve(s)
 
