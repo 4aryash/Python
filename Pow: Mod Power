@@ -1,8 +1,15 @@
-# Enter your code here. Read input from STDIN. Print output to STDOUT
-def 
+#https://www.hackerrank.com/challenges/python-power-mod-power/problem
+import math
+
+def power():
+    result1=pow(a,b,m)
+    result2=pow(a,b)
+    print(result2)
+    print(result1)
 
 if __name__ == '__main__':
     a=int(input())
     b=int(input())
     m=int(input())
+    power()
     
