@@ -15,4 +15,4 @@ def average():
         result= (student_marks[0]+student_marks[1]+student_marks[2])/3
         return result
     else:
-        return
+        return none
