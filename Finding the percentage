@@ -1,5 +1,6 @@
 #https://www.hackerrank.com/challenges/finding-the-percentage/problem
 
+
 def avg():
     if query_name == name:
         result= (student_marks[0]+student_marks[1]+student_marks[2])/3
