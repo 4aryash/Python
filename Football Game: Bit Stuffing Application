@@ -1,0 +1,10 @@
+entry = int(input())
+india = []
+
+def football():
+    for i in range(india):
+        if india[i]==(india[i+1] and india[i+2] and india[i+3] and india[i+4] and india[i+5]:
+            print("Not Dangerous.")
+        else:
+            print("Dangerous.")
+    
