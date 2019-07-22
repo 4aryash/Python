@@ -1,16 +1,17 @@
-http://codeforces.com/problemset/problem/96/A
+#http://codeforces.com/problemset/problem/96/A
 
 def Dangerous():
     for i in india:
         if india[i+1]==(india[i+2] and india[i+3] and india[i+4] and india[i+5] and india[i+6]):
-            break
+                            #checks the condition if the first element is same as the next 5 elements.
+            break           #if the above condition is true, loop breaks and prints Dangerous.
         else:
-            return NotDangerous()
+            return NotDangerous()           #function call, goes to line 13
     print("Dangerous")
-    i=i+1
+    i=i+1           #incremeting the value of i
     
 def NotDangerous():
     print("Not Dangerous.")
     
-india= list(map(int,input()))
-Dangerous()
+india= list(map(int,input()))           #taking int input in a list
+Dangerous()             #function call, goes to line 3
