@@ -1,0 +1,10 @@
+def verificationMeth():
+    if ("@" and ".com") in email:   #endswith() only checks the last elements of a basestring,
+                                    #while str "in" string, checks for all s,t,r in the string and returns true.
+        print("True.")
+    else:
+        print("Invalid.")
+
+if __name__ == '__main__':
+    email = str(input())        #taking email as input
+    verificationMeth() #function call
