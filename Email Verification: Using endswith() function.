@@ -1,0 +1,9 @@
+def verificationMeth():
+    if email.endswith(".com"):  #endswith() predefined method checks for a string at the end of a variable str.
+        print("True.")
+    else:
+        print("Invalid.")
+
+if __name__ == '__main__':
+    email = str(input())        #taking email as input
+    verificationMeth()          #function call
