@@ -1,0 +1,10 @@
+def verificationMeth():
+    if (email[-4]==".") and (email[-3]=="c") and (email[-2]=="o") and (email[-1]=="m") :
+        #logic is checking the last 4 letters individually, to be same as ".com", for the email to be true.
+        print("True.")
+    else:
+        print("Invalid.")
+
+if __name__ == '__main__':
+    email = str(input())        #taking email as input
+    verificationMeth()          #function call
