@@ -1,0 +1,7 @@
+def open():
+    while 1 == 1:
+        f = open("Hello.py","a+")
+        f = f.write("Hello World Of Python!")
+        
+if __name__ == "__main__":
+    open()
