@@ -1,0 +1,6 @@
+def alphaNumeric():
+    print(charlie.isalpha())        #.isalpha() checks if the input uses alphabet or not.
+    
+if __name__ == '__main__':
+    charlie = input("Enter alphaNumeric characters: ")
+    alphaNumeric()
