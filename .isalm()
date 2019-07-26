@@ -1,0 +1,6 @@
+def alphaNumeric():
+    print(charlie.isalnum())        #.isalnum() checks if the input is alphaNumeric or not.
+    
+if __name__ == '__main__':
+    charlie = input("Enter alphaNumeric characters: ")
+    alphaNumeric()
