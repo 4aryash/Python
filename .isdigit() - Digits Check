@@ -1,0 +1,6 @@
+def digit():
+    print(charlie.isdigit())        #.isdigit() checks if the input is in Digits or not.
+    
+if __name__ == '__main__':
+    charlie = input("Enter Digits: ")
+    digit()
