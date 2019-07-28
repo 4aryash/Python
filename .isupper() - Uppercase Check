@@ -1,0 +1,6 @@
+def isUpper():
+    print(charlie.isupper())        #.isupper() checks if the input is uppercased or not.
+    
+if __name__ == '__main__':
+    charlie = input("Enter the characters: ")
+isUpper()
