@@ -27,3 +27,21 @@ def isUpper():
 if __name__ == '__main__':
     s = input()
     alphaNumeric()
+
+"""
+def alphaNumeric():
+    if (s.isalnum() == True):
+        print("True")
+        if (s.isalpha() == True):
+            print("True")
+            if (s.isdigit() == True):
+                print("True")
+                if (s.islower() == True):
+                    print("True")
+                    if (s.isupper() == True):
+                        print("True")
+
+if __name__ == '__main__':
+    s = input()
+    alphaNumeric()
+"""
