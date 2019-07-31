@@ -28,6 +28,7 @@ if __name__ == '__main__':
     s = input()
     alphaNumeric()
 
+
 """
 def alphaNumeric():
     if (s.isalnum() == True):
@@ -45,6 +46,7 @@ if __name__ == '__main__':
     s = input()
     alphaNumeric()
 """
+
 
 """
 def alphaNumeric():
