@@ -45,3 +45,18 @@ if __name__ == '__main__':
     s = input()
     alphaNumeric()
 """
+
+"""
+def alphaNumeric():
+    if (s.isalnum() == True):
+        print("True")
+    bravo = alphabet()
+
+def alphabet():
+    if (s.isalpha() == True):
+        print(bravo)
+
+if __name__ == '__main__':
+    s = input()
+    alpha = alphaNumeric()
+"""
