@@ -1,0 +1,15 @@
+def maverick():
+    if randomInt >= 45000:
+        bill = randomInt - (randomInt*20)/100
+    elif 35000 <= randomInt < 45000:
+        bill = randomInt - (randomInt*15)/100
+    elif 25000 <= randomInt < 35000:
+        bill = randomInt - (randomInt*10)/100
+    elif randomInt < 25000:
+        bill = randomInt - (randomInt*5)/100
+    return bill
+
+if __name__ == "__main__":
+    randomInt = int(input("Enter the MRP of the Product: "))
+    bill = 0
+    print(maverick())
