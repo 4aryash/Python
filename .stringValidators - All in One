@@ -54,11 +54,30 @@ if __name__ == '__main__':
 def alphaNumeric():
     if (s.isalnum() == True):
         print("True")
-    bravo = alphabet()
+    alphabet()
 
 def alphabet():
     if (s.isalpha() == True):
-        print(bravo)
+        print("True")
+    print("True")
+    digit()
+
+def digit():
+    if (s.isdigit() == True):
+        print("True")
+    print("True")
+    isLower()
+
+def isLower():
+    if (s.islower() == True):
+        print("True")
+    print("True")
+    isUpper()
+    
+def isUpper():
+    if (s.isupper() == True):
+        print("True")
+    print("True", end="")
 
 if __name__ == '__main__':
     s = input()
