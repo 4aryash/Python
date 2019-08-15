@@ -1,5 +1,4 @@
 #https://www.hackerrank.com/challenges/arrays-ds/problem
-
 import math
 import os
 import random
@@ -7,7 +6,7 @@ import re
 import sys
 
 def reverseArray(arr):
-    return (str(arr)[::-2])
+    return (str(arr)[-2:1:-1])      #[start:stop:step]
 
 if __name__ == '__main__':
     arr_count = int(input())
