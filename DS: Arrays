@@ -1,0 +1,16 @@
+#https://www.hackerrank.com/challenges/arrays-ds/problem
+
+import math
+import os
+import random
+import re
+import sys
+
+def reverseArray(arr):
+    return arr[::-1]
+
+if __name__ == '__main__':
+    arr_count = int(input())
+    arr = list(map(int, input().rstrip().split()))
+    myTxt = reverseArray(arr)
+    print(myTxt)
