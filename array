@@ -1,0 +1,4 @@
+import array
+
+numbers = array.array('i')
+print(numbers)
