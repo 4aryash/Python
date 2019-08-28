@@ -19,21 +19,17 @@ class Classy(object):
     def __init__(self):
         self.items = []
 
-# Test cases
-me = Classy()
+    def addItem(self, item):
+        self.items.append(item)
 
-class getClassiness()
-    def __init__(me):
-        
-       print me.getClassiness() # Should be 0
-       
-       me.addItem("tophat")
-       print me.getClassiness() # Should be 2
-       
-       me.addItem("bowtie")
-       me.addItem("jacket")
-       me.addItem("monocle")    
-       print me.getClassiness() # Should be 11
-       
-       me.addItem("bowtie")
-       print me.getClassiness() # Should be 15
+    def getClassiness(self):
+        classiness = 0
+        if len(self.items) > 0:
+            for item in self.items:
+                if item == "tophat":
+                    classiness += 2
+                elif item == "bowtie":
+                    classiness += 4
+                elif item == "monocle":
+                    classiness += 5
+        return classiness
