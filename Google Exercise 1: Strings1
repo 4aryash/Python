@@ -25,10 +25,10 @@
 # and donuts(23) returns 'Number of donuts: many'
 def donuts(count):
     if count < 10:
-        print("Number of donuts: ", count)
-    else:
-        print("Number if donuts: many")
-    return donuts
+        print(count)
+    elif count >= 10:
+        print("many")
+    return count
 
 
 # B. both_ends
