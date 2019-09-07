@@ -1,6 +1,5 @@
-import array as hi
+from array import *
 
-def main():
-    hi.array('i',[1,2,3])
-    for i in len(array):
-        print(array[i])
+vals = hi.array('i',[1,2,3])
+for i in len(array):
+    print(array[i])
