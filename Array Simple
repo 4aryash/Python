@@ -1,4 +1,4 @@
 from array import *
 
-values = hi.array('i',[1,2,3])
+values = array('i',[1,2,3])
 print(values)
