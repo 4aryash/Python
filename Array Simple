@@ -1,0 +1,6 @@
+import array as hi
+
+def main():
+    hi.array('i',[1,2,3])
+    for i in len(array):
+        print(array[i])
