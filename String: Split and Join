@@ -1,8 +1,19 @@
 """
+
 >>> a = "this is a string"
 >>> a = a.split(" ") # a is converted to a list of strings. 
 >>> print a
 ['this', 'is', 'a', 'string']
+
+#or it can be done for multiple inputs at the same time as well, like
+>>> a,b = input().split()   #split() or split(" "), both works
+hack me
+>>> print(a)
+hack
+>>>print(b)
+me
+>>>print(a,b)
+hack me
 
 """
 
