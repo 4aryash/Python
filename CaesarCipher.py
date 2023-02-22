@@ -47,13 +47,13 @@ if __name__ == "__main__":
 	#working code
 	selection = input("\n\tHi! Select an option below \n\t1. Encrypt a string\n\t2. Decrypt a string\n\n")
 	if selection == "1":
-		s = input("\tEnter the string to encrypt: ")
+		s = input("\tEnter the string to encrypt: ").replace(" ","")
 		shift = int(input("\tEnter the shift value: "))
 		encstr = caesar_str_enc(s, shift)
 		print("\tEncrypted String: ",encstr)
     	
 	elif selection == "2":
-    		s = input("\tEnter the string to decrypt: ")
+    		s = input("\tEnter the string to decrypt: ").replace(" ","")
     		shift = int(input("\tEnter the shift value: "))
     		decstr = caesar_str_dec(s, shift)
     		print("\tDecrypted String: ",decstr)
