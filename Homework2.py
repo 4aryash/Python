@@ -65,13 +65,7 @@ def hill_enc(M, plaintext):
 
 if __name__ == "__main__":
 
-    #BANNER
-    print("\n\t _     _                                     _        ______  ")
-    print("\t| |   | |                                   | |      (_____ \ ")
-    print("\t| |__ | | ___  ____   ____ _ _ _  ___   ____| |  _     ____) )")
-    print("\t|  __)| |/ _ \|    \ / _  | | | |/ _ \ / ___| | / )   /_____/ ")
-    print("\t| |   | | |_| | | | ( (/ /| | | | |_| | |   | |< (    _______ ")
-    print("\t|_|   |_|\___/|_|_|_|\____)\____|\___/|_|   |_| \_)  (_______)")                                                          
+    #BANNER                                                    
     print("\n\tAaryash Raj Sinha 119222119")
 
     # Part 1: Vigenere Cipher
