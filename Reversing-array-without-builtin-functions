@@ -1,0 +1,21 @@
+def reversing_without_builtin_fns(array_input):
+	left, right = 0, len(array_input) - 1
+
+	while left < right:
+		array_input[left], array_input[right] = array_input[right], array_input[left]
+		left += 1
+		right -= 1
+	print(array_input)
+
+
+try:
+    array_input = []
+ 
+    while True:
+        array_input.append(int(input("Enter values: ")))
+ 
+# if the input is not-integer, just print the list
+except:
+    print(array_input)
+        
+reversing_without_builtin_fns(array_input)
