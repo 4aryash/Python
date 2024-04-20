@@ -8,5 +8,14 @@ def defangIP(address):
 	print(address)
 	print(defanged)
 
+def defangURL(url):
+
+	defanged = url.replace(".", "[.]").replace("http", "hxxp")
+	print(url)
+	print(defanged)
+
+
 address = "8.8.8.8"
+url = "http://www.example.com"
 defangIP(address)
+defangURL(url)
