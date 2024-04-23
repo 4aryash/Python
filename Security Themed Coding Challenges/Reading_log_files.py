@@ -8,11 +8,11 @@ for line in f:
 	client_ip = stripped_line[0]
 	date_time = stripped_line[3]
 	request_format = stripped_line[5]
-	resource_requested = stripped_line[6]
+	resource_requested = stripped_line[-1]
 	status_code = stripped_line[8]
 
-	#print(client_ip, date_time, request_format, resource_requested, status_code)
-	print(f"{client_ip} ==> requested {resource_requested} at {date_time}, with status code - {status_code}")
+	print(client_ip, date_time, request_format, resource_requested, status_code)
+	#print(f"{client_ip} ==> requested {resource_requested} at {date_time}, with status code - {status_code}")
 
 
 f.close()
