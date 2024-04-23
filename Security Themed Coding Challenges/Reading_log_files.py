@@ -11,7 +11,9 @@ for line in f:
 	resource_requested = stripped_line[6]
 	status_code = stripped_line[8]
 
-	print(client_ip, date_time, request_format, resource_requested, status_code)
+	#print(client_ip, date_time, request_format, resource_requested, status_code)
+	print(f"{client_ip} ==> requested {resource_requested} at {date_time}, with status code - {status_code}")
+
 
 f.close()
 
