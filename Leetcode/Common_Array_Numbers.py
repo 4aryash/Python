@@ -1,6 +1,7 @@
 # To find the common elements between two sorted arrays with distinct numbers.
 # Brute Force: O(n^2)
 # Optimal: O(n)
+# Best: O(1)
 
 
 
@@ -9,13 +10,13 @@ b = [2,15,17,19,21,25,27]
 c = []
 
 ######## O(n^2) using Two for loops
-# for i in a:
-#     for j in b:
-#         if i == j and j not in c:
-#             c.append(i)
-#             print(c)
-#             break
-# print(c)
+for i in a:
+    for j in b:
+        if i == j and j not in c:
+            c.append(i)
+            print(c)
+            break
+print(c)
 
 
 ######## O(n) using Two pointers
@@ -32,3 +33,10 @@ while i < len(a) and j < len(b):
     else:
         j += 1
 print(c)
+
+
+######## Almost O(1) using set operations... can be O(n) for a very large array
+set_a = set(a)
+set_b = set(b)
+print(list(set_a and set_b)
+
